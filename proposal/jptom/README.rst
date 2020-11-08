@@ -34,6 +34,7 @@ System architecture
 ===================
 
 This is the simulator architecture.
+
 .. image:: image/architecture.jpg
 
 Kalman filter is a part of "one step" function of robot object.
