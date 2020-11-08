@@ -21,7 +21,7 @@ Problem to solve
 .. image:: image/kalmansim.PNG
 .. image:: image/kalman.PNG
 
-Kalman filter is a technique of self-localazation of robotics.
+Kalman filter is a technique of self-localization of robotics.
 It estimale mean and covarience of Gaussian distribution using observation of location of landmarks.
 I am planning to implement whole the calculation as one function in c++.
    
@@ -44,7 +44,7 @@ API description
 ===============
 
 Users need to write own robot program which has "one step" and "draw" function.
-My package will support two popular self-localazation algorithm, one is Kalman filter.
+My package will support two popular self-localization algorithm, one is Kalman filter.
 I want the package can be use in not only simulator but also real robot.
 
 .. code-block:: python
